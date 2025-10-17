@@ -70,4 +70,6 @@ tooltip {
 #custom-screenrecording-indicator.active {
   color: #a55555;
 }
-
+#memory {
+  border-radius: 0px 5px 5px 0px;
+}
