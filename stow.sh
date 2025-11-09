@@ -1,1 +1,1 @@
-stow -d ~/dotfiles/ -t ~/ dotfiles 
+stow -d ~/dotfiles/ -t ~/ dotfiles
