@@ -48,6 +48,7 @@ multiplier = 3
 [window]
 decorations = "full"
 dynamic_title = true
+opacity = 0.8
 
 [window.padding]
 x = 8
