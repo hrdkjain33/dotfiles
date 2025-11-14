@@ -10,7 +10,7 @@
         "hyprland/workspaces"
     ],
     "modules-center": [
-        "hyprland/window"
+        "clock"
     ],
     "modules-right": [
         "pulseaudio",
@@ -18,8 +18,7 @@
         "cpu",
         "memory",
         "battery",
-        "battery#bat2",
-        "clock"
+        "battery#bat2"
     ],
     //Modules configuration
 
