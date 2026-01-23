@@ -1,0 +1,28 @@
+[user]
+    name = hrdkdev
+    email = jhardik607@gmail.com
+
+[init]
+    defaultBranch = main
+
+[core]
+    editor = nvim
+    autocrlf = input
+    excludesFile = ~/.gitignore_global
+
+[pull]
+    rebase = true
+
+[push]
+    autoSetupRemote = true
+
+[color]
+    ui = auto
+
+[credential "https://github.com"]
+    helper = 
+    helper = !/usr/bin/gh auth git-credential
+
+[credential "https://gist.github.com"]
+    helper = 
+    helper = !/usr/bin/gh auth git-credential

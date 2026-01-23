@@ -1,0 +1,25 @@
+# Global gitignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+*.local
+
+# Build
+node_modules/
+__pycache__/
+*.pyc
+.cache/
+dist/
+build/

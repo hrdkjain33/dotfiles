@@ -1,7 +1,7 @@
 {
   "better-indent-support-for-php-with-html": { "branch": "master", "commit": "e907f07b53dd6d6b7b2f6956cd18202ef3f26c24" },
   "conform.nvim": { "branch": "master", "commit": "fbcb4fa7f34bfea9be702ffff481a8e336ebf6ed" },
-  "lazy.nvim": { "branch": "main", "commit": "202d8e92b3a74ac88eb3a7f1e40fb59b4c2a6535" },
+  "lazy.nvim": { "branch": "main", "commit": "85c7ff3711b730b4030d03144f6db6375044ae82" },
   "nvim-highlight-colors": { "branch": "main", "commit": "e0c4a58ec8c3ca7c92d3ee4eb3bc1dd0f7be317e" },
   "tokyonight.nvim": { "branch": "main", "commit": "d14614cbfc63b6037bfccd48bb982d2ad2003352" },
   "undotree": { "branch": "master", "commit": "0f1c9816975b5d7f87d5003a19c53c6fd2ff6f7f" },
