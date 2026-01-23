@@ -15,7 +15,7 @@ if [ ! -d "$HOME/whisper.cpp" ]; then
     git clone https://github.com/ggerganov/whisper.cpp.git
     cd whisper.cpp
     cmake -B build && cmake --build build -j4 --config Release
-    bash ./models/download-ggml-model.sh base.en
+    bash ./models/download-ggml-model.sh small.en
 fi
 
 # Symlink scripts to home

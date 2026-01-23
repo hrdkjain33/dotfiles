@@ -37,7 +37,7 @@ log_info "Detected OS: $OS"
 # Common packages (names might vary slightly, handled in case statement)
 # Core: hyprland, alacritty, rofi-wayland, waybar, hyprpaper, hyprlock, hypridle
 # Utils: brightnessctl, playerctl, nautilus, tmux, unzip, git, stow
-# Neovim: neovim, ripgrep, fd, npm, nodejs
+Neovim: neovim, ripgrep, fd, npm, nodejs
 # Apps: firefox
 # Audio: pipewire, wireplumber
 # Fonts: jetbrains-mono-nerd, noto-fonts, noto-fonts-emoji
