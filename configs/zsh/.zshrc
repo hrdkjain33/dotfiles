@@ -120,3 +120,10 @@ alias jupyter='jupyter notebook'
 
 # opencode
 export PATH=/home/hrdk/.opencode/bin:$PATH
+
+# bun completions
+[ -s "/home/hrdk/.bun/_bun" ] && source "/home/hrdk/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
