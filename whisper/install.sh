@@ -20,8 +20,10 @@ fi
 
 # Symlink scripts to home
 ln -sf "$WHISPER_DIR/dictate.sh" "$HOME/dictate.sh"
-ln -sf "$WHISPER_DIR/coding_vocab.txt" "$HOME/coding_vocab.txt"
+ln -sf "$WHISPER_DIR/tech_vocab.txt" "$HOME/tech_vocab.txt"
+ln -sf "$WHISPER_DIR/vocab_correct.sh" "$HOME/vocab_correct.sh"
 chmod +x "$HOME/dictate.sh"
+chmod +x "$HOME/vocab_correct.sh"
 
 echo "✅ Whisper module installed! Configure keyboard shortcut in Settings."
 

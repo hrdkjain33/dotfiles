@@ -5,7 +5,7 @@ LOCK_FILE="/tmp/whisper_dictation.lock"
 AUDIO_FILE="/tmp/whisper_audio.wav"
 WHISPER_PATH="$HOME/whisper.cpp/build/bin/whisper-cli"
 MODEL_PATH="$HOME/whisper.cpp/models/ggml-base.en.bin"
-VOCAB_PROMPT="$HOME/coding_vocab.txt"
+VOCAB_CORRECT="$HOME/dotfiles/whisper/vocab_correct.sh"
 
 # Sound feedback
 STOP_SOUND="/usr/share/sounds/freedesktop/stereo/bell.oga"
@@ -19,8 +19,11 @@ if [ -f "$LOCK_FILE" ]; then
     
     paplay "$STOP_SOUND" &
     
-    # NEW: Add --prompt parameter
-    TEXT=$("$WHISPER_PATH" -m "$MODEL_PATH" -f "$AUDIO_FILE" --prompt "$(cat $VOCAB_PROMPT)" -nt --no-prints 2>/dev/null | xargs)
+    # Transcribe audio
+    RAW_TEXT=$("$WHISPER_PATH" -m "$MODEL_PATH" -f "$AUDIO_FILE" -nt --no-prints 2>/dev/null | xargs)
+    
+    # Apply vocabulary correction
+    TEXT=$(bash "$VOCAB_CORRECT" "$RAW_TEXT")
 
     if [ ! -z "$TEXT" ]; then
         wtype "$TEXT "

@@ -1,0 +1,42 @@
+# Technical vocabulary for Whisper correction
+# Format: wrong_transcription -> correct_term
+# Add your custom terms here
+
+# AI/ML Terms
+cuda -> CUDA
+CUDA -> CUDA
+coda -> CUDA
+couda -> CUDA
+kuda -> CUDA
+
+# Files and extensions
+claude -> Claude
+Claude -> Claude
+CLAUDE -> CLAUDE
+clod -> Claude
+clawed -> Claude
+
+# Common tech terms
+docker -> Docker
+kubernetes -> Kubernetes
+postgres -> PostgreSQL
+postgresql -> PostgreSQL
+redis -> Redis
+nginx -> NGINX
+api -> API
+json -> JSON
+yaml -> YAML
+readme -> README
+dockerfile -> Dockerfile
+
+# Programming languages
+python -> Python
+javascript -> JavaScript
+typescript -> TypeScript
+golang -> Go
+
+# Add more custom terms below:
+aws -> AWS
+gpt5 -> GPT5
+claude dot md -> Claude.md
+
