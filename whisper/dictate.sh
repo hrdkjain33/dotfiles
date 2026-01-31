@@ -4,11 +4,11 @@
 LOCK_FILE="/tmp/whisper_dictation.lock"
 AUDIO_FILE="/tmp/whisper_audio.wav"
 WHISPER_PATH="$HOME/whisper.cpp/build/bin/whisper-cli"
-MODEL_PATH="$HOME/whisper.cpp/models/ggml-small.en.bin"
+MODEL_PATH="$HOME/whisper.cpp/models/ggml-base.en.bin"
 VOCAB_PROMPT="$HOME/coding_vocab.txt"
 
 # Sound feedback
-STOP_SOUND="/usr/share/sounds/freedesktop/stereo/complete.oga"
+STOP_SOUND="/usr/share/sounds/freedesktop/stereo/bell.oga"
 
 if [ -f "$LOCK_FILE" ]; then
     # --- STOP & TRANSCRIBE ---

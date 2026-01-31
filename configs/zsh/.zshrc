@@ -118,12 +118,17 @@ alias ll='ls -la'
 alias gs='git status'
 alias jupyter='jupyter notebook'
 
+alias g5='sudo apt update && sudo apt upgrade -y'
 # opencode
 export PATH=/home/hrdk/.opencode/bin:$PATH
+alias ytmp3='yt-dlp -f "ba/b" -x --audio-format mp3 --audio-quality 0'
 
+# Downloads best video + best audio and merges into MP4
+alias ytmp4='yt-dlp -f "bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4] / bv*+ba/b" --merge-output-format mp4'
 # bun completions
 [ -s "/home/hrdk/.bun/_bun" ] && source "/home/hrdk/.bun/_bun"
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+alias lg='lazygit'
